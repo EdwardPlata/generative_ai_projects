@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "build-ai-chat"
+version = "0.1.0"
+description = "Generative AI Chatbot application for NYC Department of housing"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.30.0"
+pandas = "^2.2.0"
+numpy = "^1.26.3"
+plotly = "^5.18.0"
+comet-ml = "^3.37.0"
+langchain = "^0.1.4"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.1.0"
+pylint = "^3.0.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
